@@ -1,0 +1,116 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f6fa;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f5f6fa;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #7b69ee;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #4b4b4b;
+}
+
+nav .login-btn {
+    background-color: #7b69ee;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.about-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: ; /* Ensures full width */
+    box-sizing: border-box; /* Include padding in width calculation */
+    flex-wrap: wrap;
+    
+}
+
+
+.about-section h1 {
+    color: #333;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.about-section p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.stats-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.stat-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    text-align: center;
+}
+
+.stat-card h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.stat-card p {
+    color: #7b69ee;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.percentage {
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+.percentage.up {
+    color: green;
+}
+
+.percentage.down {
+    color: red;
+}
+
+footer {
+    background-color: #f5f6fa;
+    padding: 20px;
+    text-align: center;
+    color: #aaa;
+    font-size: 14px;
+}
