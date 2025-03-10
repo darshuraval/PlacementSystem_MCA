@@ -16,7 +16,7 @@ namespace PlacementSystem.Models.Users
 
 		public bool IsEmailVerified { get; set; } = false;
 
-		[Phone]
+		[Phone, MaxLength(10)]
 		public string? PhoneNumber { get; set; }
 
 		public bool IsPhoneNumberVerified { get; set; } = false;
