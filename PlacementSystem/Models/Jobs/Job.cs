@@ -6,7 +6,7 @@ namespace PlacementSystem.Models.Jobs
 	public class Job
 	{
 		[Key]
-		public int Id { get; set; }
+		public int Id { get; set; } 
 		public string CompanyName { get; set; }
 		public string Location { get; set; }
 		public string JobProfile { get; set; }
